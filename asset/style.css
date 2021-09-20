@@ -42,11 +42,12 @@ header {
   padding: 0 10%;
   justify-content: space-between;
   background-color: var(--primary-color);
+  transition: all 0.2s;
 }
 .logo--header {
   height: 100px;
 }
-.header__icon i,
+.header__icon > i,
 .header__icon a {
   font-size: 24px;
   margin-top: 30px;
@@ -56,7 +57,8 @@ header {
   color: var(--secondary-color);
   transition: all 0.2s;
 }
-.header__icon i:hover {
+.header__icon > i:hover,
+.header__icon a:hover {
   background-color: rgb(119, 119, 119);
   transition: all 0.2s;
   cursor: pointer;
@@ -68,6 +70,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s;
 }
 #intro p {
   color: var(--secondary-color);
@@ -202,6 +205,7 @@ label a {
   align-items: center;
   width: 100%;
   padding: 0 30px;
+  transition: all 0.2s;
 }
 .footer p a {
   text-decoration: underline;
