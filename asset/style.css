@@ -35,6 +35,7 @@ body {
   bottom: 20px;
   right: 20px;
   text-decoration: none;
+  z-index: 100;
 }
 
 header {
@@ -71,6 +72,13 @@ header {
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
+}
+#intro h2 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 #intro p {
   color: var(--secondary-color);
@@ -120,6 +128,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.content-box > p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
 }
 .content__form {
   display: flex;
@@ -207,9 +220,7 @@ label a {
   padding: 0 30px;
   transition: all 0.2s;
 }
-.footer p a {
-  text-decoration: underline;
-}
+
 .logo--footer {
   height: 60px;
 }
@@ -229,6 +240,7 @@ label a {
   }
   .content__form {
     width: 100%;
+    z-index: 99;
   }
   #content {
     align-items: center;
@@ -236,6 +248,9 @@ label a {
   }
   #intro p {
     font-size: 24px;
+  }
+  .content-box > p {
+    font-size: 18px;
   }
   .btn-effect:active {
     transform: scale(0.99);
