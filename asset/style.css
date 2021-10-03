@@ -49,7 +49,7 @@ header {
   height: 100px;
 }
 .header__icon > i,
-.header__icon a {
+.header__icon a > i  {
   font-size: 24px;
   margin-top: 30px;
   margin-right: 20px;
@@ -59,7 +59,7 @@ header {
   transition: all 0.2s;
 }
 .header__icon > i:hover,
-.header__icon a:hover {
+.header__icon a:hover > i {
   background-color: rgb(119, 119, 119);
   transition: all 0.2s;
   cursor: pointer;
@@ -116,7 +116,7 @@ header {
   }
 }
 #content {
-  height: 80vh;
+  height: 100vh;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
