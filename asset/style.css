@@ -132,6 +132,7 @@ header {
 .content-box > p {
   font-size: 30px;
   margin-bottom: 20px;
+  margin-top: 20px;
   color: var(--secondary-color);
 }
 .content__form {
